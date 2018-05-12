@@ -98,7 +98,7 @@ $(document).ready(function () {
             '<div class="col-xs-12 col-sm-4 text-center">' +
             '<div class=row><h2>OPENING HOURS</h2>' +
             '<div class="col-sm-12 col-xs-6" style="margin-bottom: 10px;"><div class="bigger">Monday - Friday</div><div class="smaller">9:00am - 6:00pm</div></div>' +
-            '<div class="col-sm-12 col-xs-6"><div class="bigger">Sunday & Holidays</div><div class="smaller">9:00am - 6:00pm</div></div>' +
+            '<div class="col-sm-12 col-xs-6"><div class="bigger">Sunday & Holidays</div><div class="smaller">Closed</div></div>' +
             '</div></div>' +
             '<div class="col-xs-12 col-sm-4 text-center">' +
             '<div class=row><h2>CONTACT</h2>' +
