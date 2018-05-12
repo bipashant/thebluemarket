@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $("head").prepend('<link rel="stylesheet" type="text/css" href="https://f61d979d.ngrok.io/custom.css">');
+    // $("head").prepend('<link rel="stylesheet" type="text/css" href="https://f61d979d.ngrok.io/custom.css">');
     convertFilterToMenu();
     addBannerForNotLoggedIn();
     addFooter();
@@ -111,7 +111,7 @@ $(document).ready(function(){
             '<div class="col-sm-12 col-xs-6 no-left-padding" style="margin-bottom: 5px;"><div class="bigger"><a href="https://listings.thebluemarket.com/user_feedbacks/new">Contact us</a></div></div>' +
             '</div></div>' +
 
-            '<div class="col-xs-12 col-sm-12"><ul class="social-links-list text-center"><li class="facebook"><a href="https://www.facebook.com/TheBlueMarket242" class="fa fa-facebook"></a></li><li class="instagram"><a href="https://www.instagram.com/thebluemarket242" class="fa  fa-instagram"></a></li><li class="twitter"><a href="https://mobile.twitter.com/BlueMarket242" class="fa  fa-twitter"></a></li></ul></div></div></div></div><div class="row footer-link text-center footer-logo"><img src="https://f61d979d.ngrok.io/darklogo.png"/><div class="row footer-link text-center" style="font-size: 14px;color: #959494;">&copy; THE BLUE MARKET LTD. All right reserved.</div></div></div></footer>');
+            '<div class="col-xs-12 col-sm-12"><ul class="social-links-list text-center"><li class="facebook"><a href="https://www.facebook.com/TheBlueMarket242" class="fa fa-facebook"></a></li><li class="instagram"><a href="https://www.instagram.com/thebluemarket242" class="fa  fa-instagram"></a></li><li class="twitter"><a href="https://mobile.twitter.com/BlueMarket242" class="fa  fa-twitter"></a></li></ul></div></div></div></div><div class="row footer-link text-center footer-logo"><img src="https://raw.githubusercontent.com/bipashant/thebluemarket/master/darklogo.png"/><div class="row footer-link text-center" style="font-size: 14px;color: #959494;">&copy; THE BLUE MARKET LTD. All right reserved.</div></div></div></footer>');
     };
 
     function addRedBanner(){
@@ -121,10 +121,10 @@ $(document).ready(function(){
         bannnerContent += "<div class='col-sm-12'>";
         bannnerContent += "<div class='width-40-desktop italic-underground'> <span><i>SEARCH FOR THE BEST BARGAINS</i></span></div>";
 
-        bannnerContent += "<div class='width-60-desktop bold-strong'><span>Pick up in store. or Choose Delivery.</span><span> <img class='shipping-img-footer' src='https://f61d979d.ngrok.io/shipping.png'/></span></div>";
+        bannnerContent += "<div class='width-60-desktop bold-strong'><span>Pick up in store. or Choose Delivery.</span><span> <img class='shipping-img-footer' src='https://raw.githubusercontent.com/bipashant/thebluemarket/master/shipping.png'/></span></div>";
         bannnerContent += "</div>";
         bannnerContent += "</div>";
-        bannnerContent += '<div class="row text-center"><img style="max-width: 100%" src="https://f61d979d.ngrok.io/card.png" alt="Cc badge powevered by paypal">';
+        bannnerContent += '<div class="row text-center"><img style="max-width: 100%" src="https://raw.githubusercontent.com/bipashant/thebluemarket/master/card.png" alt="Cc badge powevered by paypal">';
         bannnerContent += "</div>";
 
         $("footer").before(bannnerContent);
